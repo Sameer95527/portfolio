@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sameer's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Sameer's Portfolio</h1>
+
+  <nav>
+    <a href="#about">About</a> |
+    <a href="#projects">Projects</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#contact">Contact</a> |
+    <a href="#resume">Resume</a>
+  </nav>
+
+  <!-- 🔘 Language & Dark Mode Toggles -->
+  <div style="text-align: center; margin-bottom: 20px;">
+    <button onclick="switchLang()">日本語 / English</button>
+    <button id="darkToggle">🌙 Dark Mode</button>
+  </div>
+
+  <!-- 👤 Hero Section -->
+  <section id="hero">
+    <img src="sam-photo.jpg" alt="Sam's Photo">
+    <h2 id="typing-text" class="lang-en"></h2>
+    <h2 class="lang-jp" style="display:none;">こんにちは、サミールです</h2>
+    <p class="lang-en">A passionate developer building cool things for the web.</p>
+    <p class="lang-jp" style="display:none;">ウェブで おもしろいものを つくる デベロッパー です。</p>
+  </section>
+
+  <!-- 👨‍🎓 About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p class="lang-en">
+      I’m a computer science student at SRM University, currently in my 3rd year. I enjoy web development, problem-solving, and applying new tech in real-world projects. My dream is to live and work in Japan.
+    </p>
+    <p class="lang-jp" style="display:none;">
+      わたしは SRMだいがくの がくせいです。ウェブかいはつと プログラミングが すきです。ゆめは にほんで はたらくことです。
+    </p>
+  </section>
+
+  <!-- 💼 Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <h3>Community Hygiene Score App</h3>
+    <p class="lang-en">Users rate public places to build a hygiene score map. Part of IBM internship.</p>
+    <p class="lang-jp" style="display:none;">ユーザーは きれいさを レーティングして マップに します。</p>
+
+    <h3>Digital Detox Tracker</h3>
+    <p class="lang-en">Earn “Focus Coins” for staying offline and focused.</p>
+    <p class="lang-jp" style="display:none;">オフラインで すごすと フォーカスコインを もらえます。</p>
+
+    <h3>ECG Signal Analysis</h3>
+    <p class="lang-en">Python-based tool to visualize ECG health data.</p>
+    <p class="lang-jp" style="display:none;">パイソンで ECGの データを みえるか しました。</p>
+
+    <h3>Portfolio Website</h3>
+    <p class="lang-en">This site to showcase my skills and resume.</p>
+    <p class="lang-jp" style="display:none;">スキルと レジュメを しょうかいする サイトです。</p>
+  </section>
+
+  <!-- 🔧 Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="lang-en">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>C++</li>
+      <li>MySQL</li>
+      <li>Git & GitHub</li>
+    </ul>
+    <ul class="lang-jp" style="display:none;">
+      <li>HTML（エイチティーエムエル）</li>
+      <li>CSS（シーエスエス）</li>
+      <li>ジャバスクリプト</li>
+      <li>パイソン</li>
+      <li>シープラスプラス</li>
+      <li>マイエスキューエル</li>
+      <li>ギット と ギットハブ</li>
+    </ul>
+  </section>
+
+  <!-- 📞 Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:sksameergnt@gmail.com">sksameergnt@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/shaik-sameer-bab228291/" target="_blank">linkedin.com/in/sameer</a></p>
+    <p>GitHub: <a href="https://github.com/Sameer95527" target="_blank">github.com/sameer</a></p>
+  </section>
+
+  <!-- 📄 Resume -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <button onclick="window.open('resume.pdf')">View My Resume</button>
+  </section>
+
+  <!-- 📜 Footer -->
+  <footer>
+    <p>&copy; 2025 Sameer. All rights reserved.</p>
+  </footer>
+
+  <!-- ✅ JS -->
+ 
+<script src="script.js"></script>
+</html>
